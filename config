@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "upstream"]
+	url = https://github.com/Taye-pom/hardwarestoremanagementsystem.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "origin"]
+	url = https://github.com/Rean64/hardwarestoremanagementsystem.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
